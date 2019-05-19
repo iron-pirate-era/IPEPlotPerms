@@ -1,0 +1,30 @@
+name: IPEPlotPerm
+main: ipe.plotperm.ipedevteam.Main
+version: 1.0.6
+authors: [Foxtrot2400, cccm5, _MrUniverse, TylerS0166, supersquids12]
+depend: [Vault, PlotSquared]
+commands:
+   givedonor:
+       description: Gives a player a donor rank
+       usage: /<command> <player> <rank>
+       permission: IPEPerm.givedonor
+   removedonor:
+       description: Removes a player's donor ranks
+       usage: /<command> <player>
+       permission: IPEPerm.removedonor
+   fixranks:
+       description: Fixes the permissions for a player by re-stacking their ranks
+       usage: /<command> <player>
+       permission: IPEPerm.fixranks
+   fixstaff:
+     description: Adds the player rank to an admin and restacks their ranks correctly
+     usage: /<command> <player>
+     permission: IPEPerm.fixstaff
+   listgroups:
+       description: Shows a player's current groups
+       usage: /<command> <player>
+       permission: IPEPerm.listperms
+   giveplot:
+       description: Gives a plot to a player in a world
+       usage: /<command> <player> <world> <plots number>
+       permission: IPEPerm.giveplot
